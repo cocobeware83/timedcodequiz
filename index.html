@@ -1,34 +1,35 @@
-
 <!DOCTYPE html>
 
 <html>
 	<head>
-		<title>Coding Quiz</title>
-        <meta charset="UTF-8">
-        <!--insert css and js links here-->
-		<link href="#" rel="stylesheet">
-        <script src = "#"></script>
-    </head>
-    
+		<title>Coding Quiz Challenge</title>
+		<meta charset="UTF-8">
+		<link href="./assets/style.css" rel="stylesheet">
+	</head>
 	<body>
-		<div>
-			<!-- this will become a highscore link when css and js are addded-->
+		<div id="navheader">
 			<div class="topleft">
+				<!--this will eventually be a link to highscores-->
                 <a onclick="getScore()" href="#"><h4 >View Highscore</h4></a>
 			</div>
-			<!-- this will become a timer when css and js are added-->
 			<div class="topright">
-				<h4>Time: <span id="timer">0</span></h4>
+				<h4>Time: <span id="timeCountdown">0</span></h4>
 			</div>
 		</div>
-		<div>
-            <div>      
-                <h1>Coding Quiz Challenge</h1>
-                <h4>Try to answer the following code-related questions within the time limit.</h4>
-                <h4>Keep in mind that incorrect answers will penalize your score/time</h4>
-                <h4>by ten seconds!</h4>  
+
+		<div id="quiz">
+            <div id="quizMain">      
+                <h1>   
+                    Coding Quiz Challenge
+                </h1>
+                <h3>Try to answer the follwoing questions within the time limit. </h3>
+                <h3>Keep in mind that incorrect answers will penalize your score/time </h3>
+				<h3>by ten seconds!. </h3>
+				<!--this will be the 'start quiz' button when JS is added-->
                 <button onclick="start()">Start Quiz</button>
             </div>
-        </div>
+		</div>
+		<!--insert javascript source here-->
+        <script src = "#" type="text/javascript"></script>
 	</body>
 </html>
