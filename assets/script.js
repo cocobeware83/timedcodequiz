@@ -41,6 +41,9 @@ function start() {
             clearInterval(timer);
             endGame(); 
         }
+    }, 1000);   
+
+    next(); 
 
 }
 
