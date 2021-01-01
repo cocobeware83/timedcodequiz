@@ -26,3 +26,21 @@ var questions = [{
     }
 ]
 
+
+//this will start the timer @ 75 seconds once the 'start quiz' button is clicked
+function start() {
+
+    timeCountdown = 75;
+    document.getElementById("timeCountdown").innerHTML = timeCountdown;
+
+    timer = setInterval(function() {
+        timeCountdown--;
+        document.getElementById("timeCountdown").innerHTML = timeCountdown;
+        //this will stop the timer from going negative after it reaches 0
+        if (timeCountdown <= 0) {
+            clearInterval(timer);
+            endGame(); 
+        }
+
+}
+
