@@ -55,7 +55,26 @@ next();
 
 }
 
+// var to to display final score ask test taker if they'd like to record their final score
+var quizContent = `
+<h2>End of Quiz</h2>
+<h3>You scored ` + score +  ` /100!</h3>
 
+<input type="text" id="name" placeholder="Initials"> 
+<button onclick="setScore()">Record your score</button>`;
+
+document.getElementById("quizMain").innerHTML = quizContent;
+}
+
+//need to set up local storage to store high sscores
+
+//need to set up a function to reset the quiz to 'try again'
+
+//need to set up function to penalize 10s for choosing incorrect response
+
+//set up function to add 20pts to score for each correct answer
+
+// set up if/else conditions for combos of correct/incorrect answers
 
 
 
