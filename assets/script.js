@@ -1,8 +1,8 @@
 // quiz questions //  
 var questions = [{
-    title: "Inside which HTML element do we put the JavaScript?",
-    choices: ["<scripting>", "<javascript>", "<js>", "<script>"],
-    answer: "script"
+    title: "Which event occurs when the user clicks on an HTML element?",
+    choices: ["onclick", "onmouseclick", "onchange", "onmouseover"],
+    answer: "onclick"
 },
 {
     title: "How do you create a function in JavaScript?",
@@ -15,9 +15,9 @@ var questions = [{
     answer: "if (i != 5)"
 },
 {
-    title: "How can you add a comment in a JavaScript?",
-    choices: ["//This is a comment", "<!--This is a comment-->", "This is a comment"],
-    answer: "splice"
+    title: "How do you round the number 7.25, to the nearest integer?",
+    choices: ["Math.round(7.25)", "Math.rnd(7.25)", "round(7.25)", "rnd(7.25)"],
+    answer: "Math.round(7.25)"
 },
 {
     title: "What will the following code return: Boolean(10 > 9)",
@@ -25,7 +25,6 @@ var questions = [{
     answer: "true"
 }
 ]
-//SOME QUESTIONS ARENT SHOWING UP....FIGURE THIS OUT maybe the <> are messing it up??
 
 
 //variable for score, current question, time countdown, and the timer
