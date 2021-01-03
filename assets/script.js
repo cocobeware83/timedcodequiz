@@ -66,17 +66,24 @@ var quizContent = `
 document.getElementById("quizMain").innerHTML = quizContent;
 }
 
-//need to set up local storage to store high sscores
+//need to set up local storage to store high scores
 
-//need to set up a function to reset the quiz to 'try again'
+// need to set up a function to reset the quiz to 'try again'
 
-//need to set up function to penalize 10s for choosing incorrect response
+//function to subtract 10s from the countdown timer if quesstion is answered incorrectly
 
-//set up function to add 20pts to score for each correct answer
+function incorrect() {
+    timeCountdown -= 10; 
+    next();
+    }
+    
+//awards test taker 20 points for a correct answer.  5 questions @ 20pts =100%
+
+function correct() {
+    score += 20;
+    next();
+    }
+    
 
 // set up if/else conditions for combos of correct/incorrect answers
-
-
-
-
-
+   
