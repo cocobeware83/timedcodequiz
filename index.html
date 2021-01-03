@@ -4,10 +4,12 @@
 	<head>
 		<title>Coding Quiz Challenge</title>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<link href="./assets/style.css" rel="stylesheet">
 	</head>
 	<body>
-		<div id="navheader">
+		<div class = navhead id="navheader">
 			<div class="topleft">
 	
                 <a onclick="getScore()" href="#"><h4 >View Highscore</h4></a>
@@ -17,8 +19,8 @@
 			</div>
 		</div>
 
-		<div id="quiz">
-            <div id="quizMain">      
+		<div class="testarea" id="quiz">
+            <div class='testmain' id="quizMain">      
                 <h1>   
                     Coding Quiz Challenge
                 </h1>
@@ -26,7 +28,7 @@
                 <h3>Keep in mind that incorrect answers will penalize your score/time </h3>
 				<h3>by ten seconds!. </h3>
 			
-                <button onclick="start()">Start Quiz</button>
+                <button class='beginquiz' onclick="start()">Start Quiz</button>
             </div>
 		</div>
 	

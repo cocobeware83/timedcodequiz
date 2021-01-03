@@ -7,12 +7,15 @@
     float: left;
 }
 
-#navheader {
+}
+
+.navheader {
     display: block;
     background-color: #cbcacf;
     display: inline-block;
     width: 98vw;
     margin: 6px;
+    
 }
 
 h4 {
@@ -51,4 +54,22 @@ button {
 button:hover {
     background-color: #8785cc;
     cursor: pointer;
+}
+
+/* need to add media styling for mobile devices */
+@media screen and (max-width: 980px) {
+    .navhead {
+        padding-bottom: 0;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    } 
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 575px) {
+
 }
