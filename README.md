@@ -10,15 +10,14 @@
 
 ## Screenshot of Deployed Application
 
+![Screenshot (24)](https://user-images.githubusercontent.com/72768374/103484876-b1aa1600-4db7-11eb-8192-f619a0067a20.png)
 
 ## General Info
 This is a 5 question timed quiz over general Javascript knowledge.  The quiz affords the taker 75 seconds, however each question answered incorrectly will deduct 10 seconds from the time alloted.  At the end of the quiz, the taker will be allowed to record their name and score, then re-attmept the quiz of they desire to beat their previous score.
 
 ## Deployment
-Deployed application can be found [here][1]
-HTML, CSS, and Javascript can be found [here][2]
-[1]:
-[2]:
+Deployed application can be found at: https://cocobeware83.github.io/timedcodequiz/
+HTML, CSS, and Javascript can be found at: https://github.com/cocobeware83/timedcodequiz
 
 ## Technology Used
 - VS Studio Code
