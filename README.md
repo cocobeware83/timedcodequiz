@@ -21,13 +21,15 @@ HTML, CSS, and Javascript can be found [here][2]
 [2]:
 
 ## Technology Used
--VS Studio Code
--GitHub
+- VS Studio Code
+
+- GitHub
+
 -Google Chrome DevTools
 
 ## Contributor
 **Cory Neel**, *UT Coding Bootcamp Student*
 
 ## Thanks
-Thanks to UT Coding Bootcamp instruction staff and the information conatined within the Modules, W3Schools.com, and the Stack Overflow community, for all the guidance and peer suppor
+Thanks to UT Coding Bootcamp instruction staff and the information conatined within the Modules, W3Schools.com, and the Stack Overflow community, for all the guidance and peer support.
 

@@ -42,6 +42,10 @@ document.getElementById("timeCountdown").innerHTML = timeCountdown;
 next(); 
 }
 
+function endGame() {
+clearInterval(timer);
+
+
 // var to to display final score ask test taker if they'd like to record their final score
 var quizContent = `
 <h2>End of Quiz</h2>
@@ -52,7 +56,20 @@ var quizContent = `
 document.getElementById("quizMain").innerHTML = quizContent;}
 
 //need to set up local storage to store high scores
-    
+
+function setScore() {
+    localStorage.setItem("highscore", score);
+    localStorage.setItem("highscoreName",  document.getElementById('name').value);
+    getScore();}
+
+function getScore() {
+    var quizContent = `
+    <h3>` + localStorage.getItem("highscoreName") + `'s highscore is:</h3>
+    <h1>` + localStorage.getItem("highscore") + `</h1><br> 
+    <button onclick="clearScore()">Clear score!</button><button onclick="resetGame()">Play Again!</button>
+    `;
+    document.getElementById("quizMain").innerHTML = quizContent;}
+   
 // resets the quiz and allows test taker to try again
 
 function resetTest() {
@@ -86,6 +103,25 @@ function correct() {
     next();}
     
 // set up if/else conditions for combos of correct/incorrect answers
-   
+
+function next() {
+currentQuestion++;
+    
+    if (currentQuestion > questions.length - 1) {
+    endTest();
+    return;}
+    
+    var quizContent = "<h2>" + questions[currentQuestion].title + "</h2>"
+    
+    for (var buttonLoop = 0; buttonLoop < questions[currentQuestion].choices.length; buttonLoop++) {
+        var buttonCode = "<button onclick=\"[ANS]\">[CHOICE]</button>"; 
+        buttonCode = buttonCode.replace("[CHOICE]", questions[currentQuestion].choices[buttonLoop]);
+            if (questions[currentQuestion].choices[buttonLoop] == questions[currentQuestion].answer) {
+        
+        buttonCode = buttonCode.replace("[ANS]", "correct()");}
+            else {buttonCode = buttonCode.replace("[ANS]", "incorrect()");}
+                quizContent += buttonCode}
+        document.getElementById("quizMain").innerHTML = quizContent;}
+
 
     
