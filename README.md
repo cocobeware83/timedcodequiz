@@ -16,15 +16,15 @@
 This is a 5 question timed quiz over general Javascript knowledge.  The quiz affords the taker 75 seconds, however each question answered incorrectly will deduct 10 seconds from the time alloted.  At the end of the quiz, the taker will be allowed to record their name and score, then re-attmept the quiz of they desire to beat their previous score.
 
 ## Deployment
-Deployed application can be found at: https://cocobeware83.github.io/timedcodequiz/
-HTML, CSS, and Javascript can be found at: https://github.com/cocobeware83/timedcodequiz
+- Deployed application can be found at: https://cocobeware83.github.io/timedcodequiz/
+- HTML, CSS, and Javascript can be found at: https://github.com/cocobeware83/timedcodequiz
 
 ## Technology Used
 - VS Studio Code
 
 - GitHub
 
--Google Chrome DevTools
+- Google Chrome DevTools
 
 ## Contributor
 **Cory Neel**, *UT Coding Bootcamp Student*
