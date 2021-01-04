@@ -10,7 +10,7 @@
 
 ## Screenshot of Deployed Application
 
-![Screenshot (24)](https://user-images.githubusercontent.com/72768374/103484876-b1aa1600-4db7-11eb-8192-f619a0067a20.png)
+![Screenshot (26)](https://user-images.githubusercontent.com/72768374/103500140-185b1e00-4e10-11eb-87d5-27d3a5ee86f9.png)
 
 ## General Info
 This is a 5 question timed quiz over general Javascript knowledge.  The quiz affords the taker 75 seconds, however each question answered incorrectly will deduct 10 seconds from the time alloted.  At the end of the quiz, the taker will be allowed to record their name and score, then re-attmept the quiz of they desire to beat their previous score.
