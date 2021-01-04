@@ -69,9 +69,9 @@ function setScore() {
 
 function getScore() {
     var quizContent = `
-    <h2>` + localStorage.getItem("highscoreName") + `'s highscore is:</h2>
+    <h2>` + localStorage.getItem("highscoreName") + `'s highscore:</h2>
     <h1>` + localStorage.getItem("highscore") + `</h1><br> 
-    <button onclick="resetTest()">Play Again!</button>`;
+    <button onclick="resetTest()">Try Again</button>`;
     document.getElementById("quizMain").innerHTML = quizContent;}
    
 // resets the quiz and allows test taker to try again

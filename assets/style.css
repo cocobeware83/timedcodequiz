@@ -1,12 +1,11 @@
 /* styling for navheader */
 .topright {
     float: right;
-    padding-bottom: 2rem;
+    margin-bottom: %;
 }
 
 .topleft {
     float: left;
-    padding-bottom: 2rem;
 }
 
 }
@@ -17,7 +16,6 @@
     display: inline-block;
     width: 98vw;
     margin: 6px;
-    
 }
 
 h4 {
@@ -35,6 +33,12 @@ body {
     justify-content: center;
 }
 
+.headline {
+    padding: 70px 0;
+    text-align: center;
+  }
+
+
 #quizMain {
     text-align: center;
     padding: 10vh;
@@ -48,7 +52,7 @@ a {
 /* styling for button */
 button {
     border: none;
-    background-color: #2620d6;
+    background-color: black;
     color: white;
     border-radius: 5px;
     padding: 10px 16px 10px 16px;
@@ -58,7 +62,7 @@ button {
 }
 
 button:hover {
-    background-color: #8785cc;
+    background-color: #736e6e;
     cursor: pointer;
 }
 
