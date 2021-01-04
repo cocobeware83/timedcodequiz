@@ -1,11 +1,12 @@
 /* styling for navheader */
 .topright {
     float: right;
-    margin-bottom: %;
+    padding: 10px 8px 10px 8px;
 }
 
 .topleft {
     float: left;
+    padding: 10px 8px 10px 8px;
 }
 
 }
