@@ -1,10 +1,12 @@
 /* styling for navheader */
 .topright {
     float: right;
+    padding-bottom: 2rem;
 }
 
 .topleft {
     float: left;
+    padding-bottom: 2rem;
 }
 
 }
@@ -27,6 +29,10 @@ h4 {
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #cbcacf;
+    background-image: url('../assets/images/grey.jpg');
+}
+.testmain {
+    justify-content: center;
 }
 
 #quizMain {
@@ -57,19 +63,3 @@ button:hover {
 }
 
 /* need to add media styling for mobile devices */
-@media screen and (max-width: 980px) {
-    .navhead {
-        padding-bottom: 0;
-        justify-content: center;
-        width: 100%;
-        text-align: center;
-    } 
-}
-
-@media screen and (max-width: 768px) {
-
-}
-
-@media screen and (max-width: 575px) {
-
-}
